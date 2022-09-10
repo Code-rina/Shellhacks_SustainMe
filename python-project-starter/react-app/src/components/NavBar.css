@@ -1,0 +1,128 @@
+* {
+    font-family: 'Helvetica', sans-serif;
+}
+
+.navbar-main-container {
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(214,214,214);
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    height: 85px;
+}
+
+.navbar-sub-container {
+    display: flexbox;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-logo-div {
+    width: 100%;
+    list-style-type: none;
+    /* margin-top: 10px;  */
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-logo {
+    font-family: 'Cookie', cursive;
+    font-size: 50px;
+    text-decoration: none;
+    text-shadow: 1.5px 1.5px  1px rgb(26, 181, 26);
+    color: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.nav-li {
+    text-decoration: none;
+    cursor: pointer;
+    float: right;
+    padding-top: 8px;    
+}
+
+.logout-btn {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.user-btn {
+    border: none;
+    font-size: 25px;
+    font-weight: 2000;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 3px;
+    padding-bottom: 0px;
+    border-radius: 4px;
+}
+
+.nav-items {
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    margin-left: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.add-post-button {
+    background-color: rgb(240, 240, 240);
+    border: 1px solid #8c5638;
+    box-shadow: 2px 2px 4px #cab19b;
+    margin-left: 30px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 4px;
+    font-size: 25px;
+    font-weight: 2000;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.logout-button {
+    background-color: rgb(240, 240, 240);
+    border: 1px solid #8c5638;
+    margin-left: 30px;
+    box-shadow: 2px 2px 4px #cab19b;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 4px;
+    font-size: 25px;
+    font-weight: 2000;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+.navbar-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navbar-right-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
