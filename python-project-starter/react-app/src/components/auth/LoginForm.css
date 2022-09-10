@@ -32,6 +32,7 @@ body {
 }
 
 .home-logo-img {
+    margin-top: 20px;
     margin-left: 30%;
     border-radius: 25px;
     box-shadow: 10px 10px 50px 20px rgb(3, 110, 3);
@@ -67,9 +68,7 @@ body {
 }
 
 .home-form-label {
-    /* display:inline-block; */
-    display: inline;     /* for IE7*/
-    zoom:1;              /* for IE7*/
+    display: inline;    
     float: left;
     padding-top: 5px;
     text-align: right;
@@ -80,8 +79,7 @@ body {
     margin-top: 5px;
     margin-bottom: 5px;
     display:inline-block;
-    display: inline;     /* for IE7*/
-    /* zoom:1;              for IE7 */
+    display: inline;    
     vertical-align:middle;
     margin-left:20px;
     border: 1px solid rgb(214,214,214);
