@@ -5,6 +5,7 @@ import LogoutButton from './auth/LogoutButton';
 
 const NavBar = () => {
   return (
+  <>
     <nav>
       <ul>
         <li>
@@ -32,6 +33,7 @@ const NavBar = () => {
         </li>
       </ul>
     </nav>
+  </>
   );
 }
 
