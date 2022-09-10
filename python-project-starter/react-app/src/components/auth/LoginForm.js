@@ -37,8 +37,7 @@ const LoginForm = () => {
         <img className="home-logo-img" src="https://imageio.forbes.com/specials-images/imageserve/1151803694/Environment-concept/960x0.jpg?format=jpg&width=960" alt="main_pic"/>
       </div>
       <div className="home-login-container">
-        <div className="logo-login-form">Travelgram</div>
-          <h3 className="login-motto">Capture and share travel adventures...</h3>
+        <div className="logo-login-form">Welcome</div>
           <form onSubmit={onLogin}>
             <div>
               {errors.map((error, ind) => (
